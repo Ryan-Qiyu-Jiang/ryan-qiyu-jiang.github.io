@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Jiang</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/parallax.css">
+    <link rel="stylesheet" href="assets/css/ham.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/forms.css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/css/alertify.min.css"/>
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/css/themes/default.min.css"/>
+</head>
+
+<body>
+    <nav role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="#welcome" class="smoothscroll"><li>Welcome</li></a>
+          <a href="#about" class="smoothscroll"><li>About</li></a>
+          <a href="#skills" class="smoothscroll"><li>Resume</li></a>
+          <a href="#projects" class="smoothscroll"><li>Portfolio</li></a>
+          <a href="#contact-form" class="smoothscroll"><li>Contact</li></a>
+      </ul>
+  </div>
+</nav>
+
+<div id="parallax">
+    <div class="parallax__layer four">
+        <div class="header_text">
+            <h1>Ryan Jiang</h1>
+            <div class="header_subtitle">
+                <h2>Developer</h2>
+            </div>
+        </div>
+    </div>
+    <div id="welcome" class="parallax__layer one">
+        <img src="assets/img/1.png">
+    </div>
+    <div class="parallax__layer two">
+        <img src="assets/img/2.png">
+    </div>
+    <div class="parallax__layer three">
+        <img src="assets/img/3.png">
+    </div>
+    <div class="parallax__layer four">
+        <img src="assets/img/4.png">
+    </div>
+    <div class="parallax__layer five">
+        <img src="assets/img/5.png">
+    </div>
+    <div class="parallax__layer six">
+        <img src="assets/img/6.png">
+    </div>
+    <div class="parallax__layer seven">
+        <img src="assets/img/7.png">
+    </div>
+
+    <div class="parallax__cover">
+        <div class="container" id="main-container">
+            <div class="row justify-content-center component-space" id="about">
+                <div class="col-md-2">
+                    <div class="profile_image"><img src="assets/img/ryan_headshot.jpg" id="portrait"></div>
+                </div>
+                <div class="col-md-5 col-vertical-center">
+                    <h2>ABOUT ME</h2>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad&nbsp; </p>
+                </div>
+                <div class="shadow"></div>
+            </div>
+            <div class="row component-space" id="skills">
+                <div class="col-md-6 col-vertical-center side-container center-inline-children">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12 center-inline-children">
+                            <button class="outline" type="button">Hire Me</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 center-inline-children">
+                            <button class="fill" type="button">Resume</button>
+                        </div>
+                    </div>
+                    <div class="row" id="icons_row">
+                        <div class="col-md-4 center-inline-children"><a href="#"><i class="fa fa-github social_icon"></i></a></div>
+                        <div class="col-md-4 center-inline-children"><a href="#"><i class="fa fa-linkedin-square social_icon"></a></i></div>
+                        <div class="col-md-4 center-inline-children"><a href="#"><i class="fa fa-facebook-square social_icon"></i></a></div>
+                    </div>
+                </div>
+                <div class="side-bar"></div>
+                <div class="col-md-6 side-container">
+                    <div class="block-center-h">
+                        <h2>SKILLS </h2>
+                        <div id="skill-bars">
+                            <div class="bar">
+                                <h3>UX Design</h3>
+                                <div class="progress-back">
+                                    <div class="filled-bar bar-80"></div>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <h3>Angular JS</h3>
+                                <div class="progress-back">
+                                    <div class="filled-bar bar-80"></div>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <h3>React</h3>
+                                <div class="progress-back">
+                                    <div class="filled-bar bar-70"></div>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <h3>Skikit-Learn</h3>
+                                <div class="progress-back">
+                                    <div class="filled-bar bar-50"></div>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <h3>ROS</h3>
+                                <div class="progress-back">
+                                    <div class="filled-bar bar-60"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="projects" class="component-space">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>PROJECTS</h2></div>
+                    </div>
+                    <div class="row folio">
+                        <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
+                            <div class="folio-img-wrap">
+                                <img class="folio-img" src="assets/img/desk.jpg">
+                                <a href="#" class="folio-overlay">
+                                    <div class="project-title">
+                                        <h2 class="folio-heading">
+                                            Venus
+                                        </h2>
+                                        <h3 class="folio-sub">
+                                            Design Project
+                                        </h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <a href="#" class="project-skills">
+                                <h3>React / Mongo DB / Circle Jerking </h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
+                            <div class="folio-img-wrap">
+                                <img class="folio-img" src="assets/img/m1.jpg">
+                                <a href="#" class="folio-overlay">
+                                    <div class="project-title">
+                                        <h2 class="folio-heading">
+                                            Venus
+                                        </h2>
+                                        <h3 class="folio-sub">
+                                            Design Project
+                                        </h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <a href="#" class="project-skills">
+                                <h3>React / Mongo DB / Circle Jerking </h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
+                            <div class="folio-img-wrap">
+                                <img class="folio-img" src="assets/img/m3.jpg">
+                                <a href="#" class="folio-overlay">
+                                    <div class="project-title">
+                                        <h2 class="folio-heading">
+                                            BanMe
+                                        </h2>
+                                        <h3 class="folio-sub">
+                                            Design Project
+                                        </h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <a href="#" class="project-skills">
+                                <h3>React / Mongo DB / Circle Jerking </h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row folio">
+                        <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
+                            <div class="folio-img-wrap">
+                                <img class="folio-img" src="assets/img/building.jpg">
+                                <a href="#" class="folio-overlay">
+                                    <div class="project-title">
+                                        <h2 class="folio-heading">
+                                            ChainLyrics
+                                        </h2>
+                                        <h3 class="folio-sub">
+                                            Design Project
+                                        </h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <a href="#" class="project-skills">
+                                <h3>AngularJS-2 / Tea Seeping / ROS </h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
+                            <div class="folio-img-wrap">
+                                <img class="folio-img" src="assets/img/loft.jpg">
+                                <a href="#" class="folio-overlay">
+                                    <div class="project-title">
+                                        <h2 class="folio-heading">
+                                            Egg-spire
+                                        </h2>
+                                        <h3 class="folio-sub">
+                                            Design Project
+                                        </h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <a href="#" class="project-skills">
+                                <h3>NodeJS / Porn Videography </h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
+                            <div class="folio-img-wrap">
+                                <img class="folio-img" src="assets/img/m4.jpg">
+                                <a href="#" class="folio-overlay">
+                                    <div class="project-title">
+                                        <h2 class="folio-heading">
+                                            Title
+                                        </h2>
+                                        <h3 class="folio-sub">
+                                            Design Project
+                                        </h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <a href="#" class="project-skills">
+                                <h3>React / Mongo DB / Circle Jerking </h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <form id="contact-form">
+                <div class="row">
+                    <div class="col-md-6 form-fields">
+                        <div class="row">
+                            <div class="col-12">
+                                <input class="input_line" id="inputName" type="text" placeholder="Jane Doe">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <input class="input_line" id="inputEmail" type="text" placeholder="jane@firefly.com">
+                            </div>
+                        </div>
+                        <!--
+                        <div class="row">
+                            <div class="col-12">
+                                <input class="input_line" id="inputEmail" type="text" placeholder="jane@firefly.com">
+                            </div>
+                        </div>-->
+                        <div class="row">
+                            <div class="col-12">
+                                <textarea class="input_area_line large" id="inputMessage" rows="3" placeholder="Your Message" name="message"></textarea>
+                            </div>
+                        </div>
+                          <input class="display-none" type="text" name="_gotcha"/>
+                        <div class="row">
+                            <div class="col-12 submit">
+                                <button class="outline" id="email-submit-btn" type="submit" value="Send">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Contact </h2>
+                        <p>The classic&nbsp;<em>“Lorem ipsum dolor sit amet…”</em> passage is attributed to a remixing of the Roman philosopher&nbsp;<a href="https://en.wikipedia.org/wiki/Cicero" target="_blank">Cicero</a>'s 45 BC text&nbsp;<em>De Finibus Bonorum et Malorum (“On the Extremes of Good and Evil”)</em>.
+                        More specifically, the passage is thought to originate from sections 1.10.32 – 33 of his text, with the most notable portion excerpted below: </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/scroll_fade.js"></script>
+<script src="assets/js/nav_scroll.js"></script>
+<script src="assets/js/email_send.js"></script>
+<script src="http://cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/alertify.min.js"></script>
+</body>
+
+</html>

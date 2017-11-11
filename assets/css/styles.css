@@ -1,0 +1,276 @@
+.block-center-h{
+  margin-left: auto;
+  margin-right:auto;
+  width:300px;
+}
+
+h1{
+  font-family: "Tormentor";
+  font-size:170px;
+  color:black;
+}
+
+.header_text{
+  position: absolute;
+  top:170px;
+  left:0;
+  width:100%;
+  text-align: center;
+  opacity:1;
+}
+
+.header_subtitle{
+  position: relative;
+  left:22%;
+}
+
+.header_subtitle h2{
+  font-size: 45px;
+}
+
+@font-face {
+  font-family:"Tormentor";
+  src: url(../fonts/Tormentor-Regular.TTF);
+}
+
+.bar{
+  margin: 20px 0;
+}
+
+.filled-bar{
+  background-color:#CBCBCB;
+  height: 100%;
+}
+
+.progress-back{
+  background-color:#EFEFEF;
+  width:300px;
+  height:3px;
+}
+
+.bar-50{
+  width:50%;
+}
+
+.bar-60{
+  width:60%;
+}
+
+.bar-70{
+  width:70%;
+}
+
+.bar-80{
+  width:80%;
+}
+
+.bar-90{
+  width:90%;
+}
+
+.side-bar{
+  position:relative;
+ border-left: 1px #7f7f7f solid;
+  left:0;
+  height:300px;
+}
+
+#skills{
+   padding-top: 100px;
+}
+
+.shadow{
+  position: absolute;
+  left: 0;
+  right: 0;
+  box-shadow: -2px 12px 20px 0px #e3e3e3;
+  top: 250px;
+  width: 100%;
+  height: 20px;
+  background-color: white;
+}
+
+#projects{
+  padding-top:40px;
+}
+
+#contact-form{
+margin-top:50px;
+padding:50px 0;
+}
+
+.box-shadow{
+box-shadow: 0 4px 2px -2px gray;
+}
+
+#nav-bar{
+  position:absolute;
+  /*top:10px;*/
+  left:50%;
+  z-index:3;
+  transform: translate(-50%,0);
+}
+
+#icons_row{
+  width:200px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 20px;
+}
+
+.content-wrap{
+  background: #ffffff;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+h3 {
+  font-family:Arial;
+  font-weight:500;
+  font-style:italic;
+  font-size: 16px;
+}
+
+button{
+  font-size: 20px;
+  font-family: Consolas;
+ border-radius: 0px;
+}
+
+
+button.outline{
+  background-color:white;
+  border-radius: 0px;
+  border: 2px #98948D solid;
+  color: #98948D;
+  font-weight: bold;
+  padding: 5px 40px;
+  text-transform: uppercase;
+  margin: 10px;
+  transition: 0.05s ease;
+}
+
+button.fill{
+  background-color:#98948D;
+  border-radius: 0px;
+  border: 2px #98948D solid;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px 40px;
+  text-transform: uppercase;
+  margin: 10px;
+  transition: 0.05s ease;
+}
+
+button.fill:hover{
+  background-color: #6f6d68;
+  transition: 0.1s ease;
+  border: 2px #6f6d68 solid;
+}
+
+button.outline:hover{
+  background-color: #98948D;
+  color: white;
+  transition: 0.2s ease;
+}
+
+.side-container {
+  padding:0 100px;
+  margin-left:-1px;
+}
+
+.social_icon{
+  font-size:20px;
+  color: #98948D;
+}
+
+.social_icon:hover{
+  color:#E75B8E;
+  transition: 0.2s ease;
+}
+
+.fa.fa-facebook-square {
+  font-size:20px;
+}
+
+.fa.fa-linkedin-square {
+  font-size:20px;
+}
+
+.fa.fa-github {
+  font-size:20px;
+}
+
+.center-inline-children {
+  text-align:center;
+}
+
+#about {
+  margin:60px 0;
+}
+
+.-content-container {
+}
+
+.component-space {
+  margin-bottom:20px;
+}
+
+.col-vertical-center {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+h2 {
+  font-family:Consolas;
+  font-size:30px;
+  font-weight:bold;
+  color:#E75B8E;
+}
+
+p {
+  font-family:arial;
+  font-size:18px;
+}
+
+#portrait {
+  margin-left:-25px;
+}
+
+.profile_image img {
+  height:150px;
+  /*width:200px;*/
+}
+
+.profile_image {
+  width:150px;
+  height:150px;
+  overflow:hidden;
+  border-radius:50%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+@media (min-width:768px) {
+  .navbar-right {
+    float:left;
+    margin-right:-15px;
+  }
+}
+
+@media (min-width:768px) {
+  .navbar-nav {
+    float:left;
+    margin:0;
+  }
+}
+
+.navbar-nav {
+  margin:7.5px -15px;
+}
+
