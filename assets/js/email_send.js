@@ -12,13 +12,18 @@
       } else {
         $.ajax({
           method: 'POST',
-          url: '//formspree.io/ryan.qiyu.jiang@gmail.com',
+          url: 'https://formspree.io/ryan.qiyu.jiang@gmail.com',
           data: $('#contact-form').serialize(),
-          datatype: 'json'
+          datatype: 'json',
+            success: function (data) {
+                return alertify.success('Message sent');
+            },
+            error: function (textStatus, errorThrown) {
+                alertify.error('Couldnt send sorry');
+            }
         });
         e.preventDefault();
         $(this).get(0).reset();
-        return alertify.success('Message sent');
       }
       
     });
