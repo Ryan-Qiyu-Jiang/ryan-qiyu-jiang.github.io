@@ -1,3 +1,42 @@
+.title-box{
+    width: 600px;
+    border: solid black 2px;
+    height: 600px;
+    position: absolute;
+}
+
+.welcome-title{
+  position: relative;
+    width: 330px;
+    top: -40px;
+    left: 200px;
+}
+
+.header-title{
+  width: 400px;
+  position: relative;
+  left: -165px;
+
+}
+
+.jumbotron .h1, .jumbotron h1 {
+    font-size: 80px;
+}
+
+.jumbotron.jumbo_header {
+  height:100vh;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deer_background{
+  background-image: url("../img/joey-pilgrim-251356.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .block-center-h{
   margin-left: auto;
   margin-right:auto;
@@ -11,26 +50,25 @@ h1{
 }
 
 .header_text{
-  position: absolute;
-  top:170px;
-  left:0;
-  width:100%;
   text-align: center;
   opacity:1;
 }
 
 .header_subtitle{
-  position: relative;
-  left:22%;
+  overflow-y: hidden;
+  height: 0;
+  animation:uncover 1500ms ease-in-out 6000ms forwards;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
+  @keyframes uncover
+  {
+    100%{height:100px;}
+  }
 
 .header_subtitle h2{
-  font-size: 45px;
-}
-
-@font-face {
-  font-family:"Tormentor";
-  src: url(../fonts/Tormentor-Regular.TTF);
+  font-size: 30px;
 }
 
 .bar{
@@ -84,9 +122,10 @@ h1{
   left: 0;
   right: 0;
   box-shadow: -2px 12px 20px 0px #e3e3e3;
-  top: 250px;
+ /* top: 250px;*/
   width: 100%;
   height: 20px;
+  bottom:-300px;
   background-color: white;
 }
 

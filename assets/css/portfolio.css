@@ -1,10 +1,10 @@
 .folio{
-	margin:20px 0 20px -20px;
+	margin:20px 0 20px 0;
 }
 
 .folio-item{
-	margin: 0 0 50px 0;
-    padding: 0 20px;
+	margin: 0 0 60px 0;
+    padding: 0 0px;
 }
 
 .folio-item .folio-img-wrap{
@@ -16,6 +16,7 @@
 	max-width: 100%;
     height: auto;
     transition: all 0.5s ease;
+    opacity: 0.8;
 }
 
 .folio-overlay{
@@ -44,7 +45,9 @@
 
 .folio-item .folio-img-wrap a h2{
 	color:white;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
+	font-size: 60px;
+	font-family: "Diamor";
 }
 
 .folio-item .folio-img-wrap a h3{
@@ -52,7 +55,7 @@
 }
 
 .folio-item:hover .folio-img-wrap a.folio-overlay{
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(152, 148, 141, 0.7);
 	transition: all 0.5s ease;
 }
 

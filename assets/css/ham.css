@@ -2,12 +2,13 @@
  * Made by Erik Terwan
  * 24th of November 2015
  * All rights reserved
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
  */
+
+#ham_nav_wrap{
+  height:0; 
+  position:fixed;
+  z-index: 1;
+}
 
 body
 {
