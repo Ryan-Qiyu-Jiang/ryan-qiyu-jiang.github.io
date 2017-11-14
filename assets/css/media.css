@@ -1,0 +1,39 @@
+@media(max-width: 790px){
+  .header-title {
+  left:0;
+  }
+
+  .welcome-title {
+    left:0;
+    top:100px;
+  }
+  
+  .header_text {
+    text-align: center;
+    opacity: 1;
+    margin-top: -100px;
+	}
+
+	.title-box {
+    width: 90%;
+    height: 60%;
+	}
+}
+
+@media(max-width: 768px){
+	.shadow {
+    bottom: -450px;
+	}
+
+	.col-mobile-spacer{
+		padding: 40px;
+	}
+
+	.mobile-top-spacer{
+		padding-top:60px;
+	}
+
+	.side-bar{
+		display:none;
+	}
+}
