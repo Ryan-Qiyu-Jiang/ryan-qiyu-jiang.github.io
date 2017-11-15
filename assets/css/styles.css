@@ -83,7 +83,7 @@ h1{
 
 .progress-back{
   background-color:#EFEFEF;
-  width:300px;
+  width:100%;
   height:3px;
 }
 
@@ -152,7 +152,6 @@ box-shadow: 0 4px 2px -2px gray;
 }
 
 #icons_row{
-  width:200px;
   margin-left: auto;
   margin-right:auto;
   margin-top: 20px;
@@ -179,6 +178,8 @@ button{
   font-size: 20px;
   font-family: Consolas;
  border-radius: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -192,6 +193,8 @@ button.outline{
   text-transform: uppercase;
   margin: 10px;
   transition: 0.05s ease;
+      margin-left: auto;
+    margin-right: auto;
 }
 
 button.fill{
@@ -204,6 +207,8 @@ button.fill{
   text-transform: uppercase;
   margin: 10px;
   transition: 0.05s ease;
+      margin-left: auto;
+    margin-right: auto;
 }
 
 button.fill:hover{
