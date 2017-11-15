@@ -46,11 +46,22 @@
 	.col-mobile-spacer{
 		padding: 40px;
 	}
-	
+
 	#icons_row div{
 	  width:33%;
+	}
+
+	.header_title{
+	    transform: scale(0.8,0.7);
 	}
 }
 
 @media(max-width: 398px){
+	textarea.large {
+  	  min-width: 100%;
+	}
+	.input_line{
+    	width: 90%;
+	}
+
 }
