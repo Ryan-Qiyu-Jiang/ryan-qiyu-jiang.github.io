@@ -11,12 +11,14 @@
     width: 330px;
     top: -40px;
     left: 200px;
+     max-width: 100%;
 }
 
 .header-title{
   width: 400px;
   position: relative;
   left: -165px;
+   max-width: 100%;
 
 }
 
@@ -53,6 +55,7 @@ h1{
 .header_text{
   text-align: center;
   opacity:1;
+   max-width: 100%;
 }
 
 .header_subtitle{
