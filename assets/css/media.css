@@ -51,6 +51,10 @@
 	  width:33%;
 	}
 
+	.deer_background{
+  background-image: url("../img/joey-pilgrim-small.jpg");
+}
+
 }
 
 @media(max-width: 398px){
