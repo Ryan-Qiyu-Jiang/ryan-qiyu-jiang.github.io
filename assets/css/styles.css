@@ -1,30 +1,30 @@
 
 
 .title-box{
-    width: 600px;
-    border: solid black 2px;
-    height: 600px;
-    position: absolute;
+  width: 600px;
+  border: solid black 2px;
+  height: 600px;
+  position: absolute;
 }
 
 .welcome-title{
   position: relative;
-    width: 330px;
-    top: -40px;
-    left: 200px;
-     max-width: 100%;
+  width: 330px;
+  top: -40px;
+  left: 200px;
+  max-width: 100%;
 }
 
 .header-title{
   width: 400px;
   position: relative;
   left: -165px;
-   max-width: 100%;
+  max-width: 100%;
 
 }
 
 .jumbotron .h1, .jumbotron h1 {
-    font-size: 80px;
+  font-size: 80px;
 }
 
 .jumbotron.jumbo_header {
@@ -38,8 +38,8 @@
 
 .deer_background{
   background-image: url("../img/joey-pilgrim-251356.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .block-center-h{
@@ -57,7 +57,7 @@ h1{
 .header_text{
   text-align: center;
   opacity:1;
-   max-width: 100%;
+  max-width: 100%;
 }
 
 .header_subtitle{
@@ -68,10 +68,10 @@ h1{
   left: 50%;
   transform: translateX(-50%);
 }
-  @keyframes uncover
-  {
-    100%{height:100px;}
-  }
+@keyframes uncover
+{
+  100%{height:100px;}
+}
 
 .header_subtitle h2{
   font-size: 30px;
@@ -114,13 +114,13 @@ h1{
 
 .side-bar{
   position:relative;
- border-left: 1px #7f7f7f solid;
+  border-left: 1px #7f7f7f solid;
   left:0;
   height:300px;
 }
 
 #skills{
-   padding-top: 100px;
+ padding-top: 100px;
 }
 
 .shadow{
@@ -128,7 +128,7 @@ h1{
   left: 0;
   right: 0;
   box-shadow: -2px 12px 20px 0px #e3e3e3;
- /* top: 250px;*/
+  /* top: 250px;*/
   width: 100%;
   height: 20px;
   bottom:-300px;
@@ -140,12 +140,12 @@ h1{
 }
 
 #contact-form{
-margin-top:50px;
-padding:50px 0;
+  margin-top:50px;
+  padding:50px 0;
 }
 
 .box-shadow{
-box-shadow: 0 4px 2px -2px gray;
+  box-shadow: 0 4px 2px -2px gray;
 }
 
 #nav-bar{
@@ -182,9 +182,10 @@ h3 {
 button{
   font-size: 20px;
   font-family: Consolas;
- border-radius: 0px;
-    margin-left: auto;
-    margin-right: auto;
+  border-radius: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor:pointer;
 }
 
 
@@ -198,8 +199,8 @@ button.outline{
   text-transform: uppercase;
   margin: 10px;
   transition: 0.05s ease;
-      margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button.fill{
@@ -212,8 +213,8 @@ button.fill{
   text-transform: uppercase;
   margin: 10px;
   transition: 0.05s ease;
-      margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button.fill:hover{
