@@ -1,4 +1,8 @@
-
+.deer_background{
+  background-image: url("../img/joey-pilgrim-251356.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .title-box{
   width: 600px;
@@ -34,12 +38,6 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-}
-
-.deer_background{
-  background-image: url("../img/joey-pilgrim-251356.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .block-center-h{
