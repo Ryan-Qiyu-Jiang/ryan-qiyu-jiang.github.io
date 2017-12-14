@@ -17,10 +17,10 @@
           data: $(this).serialize(),
           dataType: 'json',
             success: function (data) {
-                return alertify.success('Message sent');
+                 alertify.success('Message sent');
             },
             error: function (textStatus, errorThrown) {
-               return alertify.error('Couldnt send sorry');
+                alertify.error('Couldnt send sorry');
             }
             });
         e.preventDefault();
