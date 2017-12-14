@@ -1,3 +1,7 @@
+body{
+  font-family:Arial !important;
+}
+
 .deer_background{
   background-image: url("../img/joey-pilgrim-251356.jpg");
   background-size: cover;
@@ -47,7 +51,7 @@
 }
 
 h1{
-  font-family: "Tormentor";
+  font-family: "Diamor";
   font-size:170px;
   color:black;
 }
