@@ -20,7 +20,7 @@
                 return alertify.success('Message sent');
             },
             error: function (textStatus, errorThrown) {
-                alertify.error('Couldnt send sorry');
+               return alertify.error('Couldnt send sorry');
             }
             });
         e.preventDefault();
