@@ -65,7 +65,7 @@ h1{
 .header_subtitle{
   overflow-y: hidden;
   height: 0;
-  animation:uncover 1500ms ease-in-out 6000ms forwards;
+  animation:uncover 1500ms ease-in-out 4500ms forwards;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
