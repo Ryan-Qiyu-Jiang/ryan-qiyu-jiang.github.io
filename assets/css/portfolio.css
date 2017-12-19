@@ -4,7 +4,7 @@
 
 .folio-item{
 	margin: 0 0 60px 0;
-    padding: 0 30px 0 30px;
+    padding: 0;
 }
 
 .folio-item .folio-img-wrap{
@@ -14,7 +14,7 @@
 
 .folio-item img.folio-img{
 	max-width: 100%;
-    height: auto;
+    width: 100%;
     transition: all 0.5s ease;
     opacity: 0.8;
 }

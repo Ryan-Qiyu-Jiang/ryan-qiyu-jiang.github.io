@@ -4,22 +4,24 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, 
-maximum-scale=1.0, user-scalable=no" /> 
+    maximum-scale=1.0, user-scalable=no" /> 
     <title>Ryan Jiang</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!--
+<!--
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/media.css">
     <link rel="stylesheet" href="assets/css/parallax.css">
     <link rel="stylesheet" href="assets/css/ham.css">
     <link rel="stylesheet" href="assets/css/portfolio.css">
     <link rel="stylesheet" href="assets/css/forms.css">
-    -->
-        <link rel="stylesheet" href="assets/css/merged.min.css">
-        <link rel="stylesheet" href="assets/css/alertify.css">
-        <link rel="stylesheet" href="assets/css/modal.css">
-    <link rel="icon" type="image/png" href="favicon.png">
-    <script id='storm-up' src='https://storm-up.com/dist/bundle.js?clientId=d4da232b-a045-46d3-89d6-9b0ac27837be'></script>
+    <link rel="stylesheet" href="assets/css/modal.css">
+-->
+<link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/merged.min.css">
+<link rel="stylesheet" href="assets/css/alertify.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.css">
+<link rel="icon" type="image/png" href="favicon.png">
+<script id='storm-up' src='https://storm-up.com/dist/bundle.js?clientId=d4da232b-a045-46d3-89d6-9b0ac27837be'></script>
 </head>
 
 <body>
@@ -49,7 +51,6 @@ maximum-scale=1.0, user-scalable=no" />
         </div>
     </div>
 </div>
-
 <div class="container" id="main-container">
     <div class="row justify-content-center component-space" id="about">
         <div class="col-md-2">
@@ -103,13 +104,13 @@ maximum-scale=1.0, user-scalable=no" />
                         </div>
                     </div>
                     <div class="bar">
-                        <h3>Skikit-Learn</h3>
+                        <h3>MongoDB</h3>
                         <div class="progress-back">
                             <div class="filled-bar bar-50"></div>
                         </div>
                     </div>
                     <div class="bar">
-                        <h3>ROS</h3>
+                        <h3>Hadoop</h3>
                         <div class="progress-back">
                             <div class="filled-bar bar-60"></div>
                         </div>
@@ -127,7 +128,7 @@ maximum-scale=1.0, user-scalable=no" />
                 <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
                     <div class="folio-img-wrap">
                         <img class="folio-img" src="assets/img/f-venus.jpg">
-                        <a href="https://github.com/Ryan-Qiyu-Jiang/venus1" target="_blank" class="folio-overlay">
+                        <a href="#venus" class="folio-overlay trigger">
                             <div class="project-title">
                                 <h2 class="folio-heading">
                                     Venus
@@ -145,7 +146,7 @@ maximum-scale=1.0, user-scalable=no" />
                 <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
                     <div class="folio-img-wrap">
                         <img class="folio-img" src="assets/img/f-banme.jpg">
-                        <a href="http://banme.bitballoon.com/#!/" target="_blank" class="folio-overlay">
+                        <a href="#ban-me" class="folio-overlay trigger">
                             <div class="project-title">
                                 <h2 class="folio-heading">
                                     Ban Me
@@ -163,7 +164,7 @@ maximum-scale=1.0, user-scalable=no" />
                 <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
                     <div class="folio-img-wrap">
                         <img class="folio-img" src="assets/img/f-eggspire.jpg">
-                        <a href="https://eggspire.firebaseapp.com/" target="_blank" class="folio-overlay">
+                        <a href="#eggspire" class="folio-overlay trigger">
                             <div class="project-title">
                                 <h2 class="folio-heading">
                                     Eggspire
@@ -183,7 +184,7 @@ maximum-scale=1.0, user-scalable=no" />
                 <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
                     <div class="folio-img-wrap">
                         <img class="folio-img" src="assets/img/f-chainlyrics.jpg">
-                        <a href="http://chainlyrics.getforge.io/#/?_k=a7l09s" target="_blank" class="folio-overlay">
+                        <a href="#chainlyrics" class="folio-overlay trigger">
                             <div class="project-title">
                                 <h2 class="folio-heading">
                                     ChainLyrics
@@ -201,7 +202,7 @@ maximum-scale=1.0, user-scalable=no" />
                 <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
                     <div class="folio-img-wrap">
                         <img class="folio-img" src="assets/img/f-usaco.jpg">
-                        <a href="https://github.com/Ryan-Qiyu-Jiang/USACO-problem-solutions" target="_blank" class="folio-overlay">
+                        <a href="#usaco" class="folio-overlay trigger">
                             <div class="project-title">
                                 <h2 class="folio-heading">
                                     USACO
@@ -219,7 +220,7 @@ maximum-scale=1.0, user-scalable=no" />
                 <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
                     <div class="folio-img-wrap">
                         <img class="folio-img" src="assets/img/f-oms.jpg">
-                        <a href="https://www.facebook.com/OMSToronto/" target="_blank" class="folio-overlay">
+                        <a href="#oms" class="folio-overlay trigger">
                             <div class="project-title">
                                 <h2 class="folio-heading">
                                     OMS
@@ -236,63 +237,176 @@ maximum-scale=1.0, user-scalable=no" />
                 </div>
             </div>
         </div>
-          <a href="#asdf">Modal</a>
 
-        <div class="portfolio-modal" id="asdf" aria-hidden="true">
-          <div class="portfolio-modal-dialog">
-            <div class="portfolio-modal-header">
-              <h2>portfolio-modal in CSS? 111 </h2>
-              <a href="#" class="btn-close" aria-hidden="true">×</a>
+        <!--modals-->
+                       <!--
+                        https://github.com/Ryan-Qiyu-Jiang/venus1
+                        http://banme.bitballoon.com/#!/
+                        https://eggspire.firebaseapp.com/
+                        http://chainlyrics.getforge.io/#/?_k=a7l09s
+                        https://github.com/Ryan-Qiyu-Jiang/USACO-problem-solutions
+                    -->
+
+                    <div name="venus" class="modal">
+                        <div class="row folio-modal">
+                            <div class="col-md-6 modal-left">
+                               <img class="modal-img" src="assets/img/modal-img/f-venus.jpg">
+                           </div>
+                           <div class="col-md-6 folio-details col-vertical-center">
+                            <div class="modal-header">
+                                <h3>RAPID-FIRE PROM DATES</h3><h2>Venus</h2>
+                            </div>
+                            <div class="min-bar"></div>
+                            <p>With highschool prom coming up in just a week I pulled together a live dating platform
+                               to help others in need. It found single pals amoung our facebook friends and displayed matches in realtime.
+                           </p>
+                           <p>I used MongoDB, Express, AngularJS, and NodeJS hosted with AWS to spark new love.
+                           </p>
+                           <div class="modal-links">
+                             <a target="_blank" href="https://github.com/Ryan-Qiyu-Jiang/venus1"><i class="fa fa-github social_icon"></i></a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+               <div name="ban-me" class="modal">
+                <div class="row folio-modal">
+                    <div class="col-md-6 modal-left">
+                       <img class="modal-img" src="assets/img/modal-img/f-banme.jpg">
+                   </div>
+                   <div class="col-md-6 folio-details col-vertical-center">
+                    <h2>Name</h2>
+                    <p>undergraduate CS student who loves smart code, machine learning, and dessert. Let's make something</p>
+                    <a href="assets/pdf/Ryan_Jiang_Resume_2017_12.pdf" target="_blank"> <button class="outline">Try Me</button> </a>
+                </div>
             </div>
-            <div class="portfolio-modal-body">
-              <p>One portfolio-modal example here! :D</p>
-            </div>
-            <div class="portfolio-modal-footer">
-              <a href="#" class="btn">Nice!</a>
-            </div>
-          </div>
         </div>
 
-        <form id="contact-form">
-            <div class="row">
-                <div class="col-md-6 form-fields">
-                    <div class="row">
-                        <div class="col-12">
-                            <input class="input_line" id="inputName" name="Name" type="text" placeholder="Jane Doe">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <input class="input_line" id="inputEmail" name="_replyto" type="email" placeholder="jane@firefly.com">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <textarea class="input_area_line large" id="inputMessage" rows="3" placeholder="Your Message" name="message"></textarea>
-                        </div>
-                    </div>
-                    <input class="display-none" type="text" name="_gotcha"/>
-                    <input type="hidden" name="_next" value="https://ryan-qiyu-jiang.github.io/" />
-                    <div class="row">
-                        <div class="col-12 submit">
-                            <button class="outline" id="email-submit-btn" type="submit" value="Send">Send</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-mobile-spacer">
-                    <h2>Contact </h2>
-                    <p class="contact-par">I'm an undergraduate CS student at the University of Waterloo.<br>
-                       My next coop term is from May 1st to Sep 7th.<br><br>
-                       <em>Address:</em> 60 Purdon Drive, Toronto, Ontario<br>
-                       <em>Email:</em> rq2jiang@uwaterloo.ca<br>
-                       <em>Phone Number:</em> (416) 951-2328
-                   </p>
+        <div name="eggspire" class="modal">
+            <div class="row folio-modal">
+                <div class="col-md-6 modal-left">
+                   <img class="modal-img" src="assets/img/modal-img/f-eggspire.jpg">
                </div>
-           </div>
-       </form>
+               <div class="col-md-6 folio-details col-vertical-center">
+                    <div class="modal-header">
+                        <h3>Virtual Fridge</h3><h2>Eggspire</h2>
+                    </div>
+                    <div class="min-bar"></div>
+                    <p>Don't know if your kiwis went bad? Take a photo of your grociery reciept and your virtual fridge will keep track of all your items. Never get food poisoning again!
+                   </p>
+                   <p> Hackathon project, we used Google's Firebase, NodeJS, and JQuery with OCR APIs.
+                   </p>
+                   <div class="modal-links">
+                     <a target="_blank" href="https://github.com/Ryan-Qiyu-Jiang/venus1"><i class="fa fa-github social_icon"></i></a>
+                     <a href="https://eggspire.firebaseapp.com/" target="_blank"> <button class="outline">Try Me</button> </a>
+                   </div>
+               </div>
+        </div>
+    </div>
 
-   </div>
+    <div name="chainlyrics" class="modal">
+        <div class="row folio-modal">
+            <div class="col-md-6 modal-left">
+               <img class="modal-img" src="assets/img/modal-img/f-chainlyrics.jpg">
+           </div>
+           <div class="col-md-6 folio-details col-vertical-center">
+                <div class="modal-header">
+                    <h3>Could have been written by The Chainsmokers</h3><h2>ChainLyrics</h2>
+                </div>
+                <div class="min-bar"></div>
+                <p>Think every pop song sounds the same? Here's a music lyric generator for all your favourite artists!
+                    Works best with Maroon 5.
+               </p>
+               <p> Built using ReactJS and Markov chains to generate a probalistic model of popular music lyrics.
+               </p>
+               <div class="modal-links">
+                 <a target="_blank" href="https://github.com/Ryan-Qiyu-Jiang/chainlyrics"><i class="fa fa-github social_icon"></i></a>
+                 <a href="http://chainlyrics.getforge.io/#/?_k=a7l09s" target="_blank"> <button class="outline">Try Me</button> </a>
+               </div>
+        </div>
+    </div>
+</div>
+
+<div name="usaco" class="modal">
+    <div class="row folio-modal">
+        <div class="col-md-6 modal-left">
+           <img class="modal-img" src="assets/img/modal-img/f-usaco.jpg">
+       </div>
+       <div class="col-md-6 folio-details col-vertical-center">
+            <div class="modal-header">
+                <h3>Solutions to USACO and CCC problems</h3><h2>USACO Solutions</h2>
+            </div>
+            <div class="min-bar"></div>
+            <p>Solutions to some USACO (USA Computing Olympiads) and CCC (Canadian Computing Competition) problems in C++. I placed top 25 in the CCC (national competition) in 2017, placed bronze at CCO (Canadian Computing Olympiads).
+           </p>
+           <div class="modal-links">
+             <a target="_blank" href="https://github.com/Ryan-Qiyu-Jiang/USACO-problem-solutions"><i class="fa fa-github social_icon"></i></a>
+           </div>
+      </div>
+    </div>
+</div>
+
+<div name="oms" class="modal">
+    <div class="row folio-modal">
+        <div class="col-md-6 modal-left">
+           <img class="modal-img" src="assets/img/modal-img/f-oms.jpg">
+       </div>
+       <div class="col-md-6 folio-details col-vertical-center">
+            <div class="modal-header">
+                <h3>Operation Medical School Conferences</h3><h2>OMS</h2>
+            </div>
+            <div class="min-bar"></div>
+            <p>OMS is a entirely student run non-profit. In 2017 my team and I started with nothing and we ended the year hosting an amazing medical conference for 300 students, with speakers including the CEO of Sick Kids Hospitial, and we donated $8000 to donate to charity.
+           </p>
+           <p>I marketed the conference, managed sales analytics, and raised $4500 in sponsorship funding.</p>
+           <div class="modal-links">
+             <a target="_blank" href="https://www.facebook.com/OMSToronto/"><i class="fa fa-facebook-square social_icon"></i></a>
+           </div>
+        </div>
+    </div>
+</div>
+
+
+<form id="contact-form">
+    <div class="row">
+        <div class="col-md-6 form-fields">
+            <div class="row">
+                <div class="col-12">
+                    <input class="input_line" id="inputName" name="Name" type="text" placeholder="Jane Doe">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <input class="input_line" id="inputEmail" name="_replyto" type="email" placeholder="jane@firefly.com">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <textarea class="input_area_line large" id="inputMessage" rows="3" placeholder="Your Message" name="message"></textarea>
+                </div>
+            </div>
+            <input class="display-none" type="text" name="_gotcha"/>
+            <input type="hidden" name="_next" value="https://ryan-qiyu-jiang.github.io/" />
+            <div class="row">
+                <div class="col-12 submit">
+                    <button class="outline" id="email-submit-btn" type="submit" value="Send">Send</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-mobile-spacer">
+            <h2>Contact </h2>
+            <p class="contact-par">I'm an undergraduate CS student at the University of Waterloo.<br>
+             My next coop term is from May 1st to Sep 7th.<br><br>
+             <em>Address:</em> 60 Purdon Drive, Toronto, Ontario<br>
+             <em>Email:</em> rq2jiang@uwaterloo.ca<br>
+             <em>Phone Number:</em> (416) 951-2328
+         </p>
+     </div>
+ </div>
+</form>
+
+</div>
 </div>
 
 <script src="assets/js/jquery.min.js"></script>
@@ -300,6 +414,8 @@ maximum-scale=1.0, user-scalable=no" />
 <script src="assets/js/nav_scroll.js"></script>
 <script src="assets/js/email_send.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/alertify.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js"></script>
+<script src="assets/js/modal.js"></script>
 </body>
 
 </html>

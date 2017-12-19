@@ -1,92 +1,44 @@
-.wrap {
-  padding: 40px;
-  text-align: center;
+.folio-modal{
+
 }
-.btn {
-  background: #428bca;
-  border: #357ebd solid 1px;
-  border-radius: 3px;
-  color: #fff;
-  display: inline-block;
-  font-size: 14px;
-  padding: 8px 15px;
-  text-decoration: none;
-  text-align: center;
-  min-width: 60px;
-  position: relative;
-  transition: color .1s ease;
+
+.folio-details{
+    padding: 50px;
 }
-.btn:hover {
-  background: #357ebd;
+
+.modal-left{
+    overflow: hidden;
+    height:500px;
 }
-.btn.btn-big {
-  font-size: 18px;
-  padding: 15px 20px;
-  min-width: 100px;
+
+.modal-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.8);
 }
-.btn-close {
-  color: #aaa;
-  font-size: 30px;
-  text-decoration: none;
-  position: absolute;
-  right: 5px;
-  top: 0;
+
+.modal-header {
+    display: block;
+    border: none;
+    padding: 0 0 20px 0;
 }
-.btn-close:hover {
-  color: #919191;
+
+.modal p{
+    font-size: 16px;
 }
-.portfolio-modal:before {
-  content: "";
-  display: none;
-  background: rgba(0, 0, 0, 0.6);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 10;
+
+.modal h3{
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
 }
-.portfolio-modal:target:before {
-  display: block;
+
+.modal button.outline{
+    padding: 4px 20px;
+    font-size: 16px;
 }
-.portfolio-modal:target .portfolio-modal-dialog {
-  -webkit-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
-  top: 20%;
-}
-.portfolio-modal-dialog {
-  background: #fefefe;
-  border: #333 solid 1px;
-  border-radius: 5px;
-  margin-left: -200px;
-  position: fixed;
-  left: 50%;
-  top: -100%;
-  z-index: 11;
-  width: 360px;
-  -webkit-transform: translate(0, -500%);
-  -ms-transform: translate(0, -500%);
-  transform: translate(0, -500%);
-  -webkit-transition: -webkit-transform 0.3s ease-out;
-  -moz-transition: -moz-transform 0.3s ease-out;
-  -o-transition: -o-transform 0.3s ease-out;
-  transition: transform 0.3s ease-out;
-}
-.portfolio-modal-body {
-  padding: 20px;
-}
-.portfolio-modal-header,
-.portfolio-modal-footer {
-  padding: 10px 20px;
-}
-.portfolio-modal-header {
-  border-bottom: #eee solid 1px;
-}
-.portfolio-modal-header h2 {
-  font-size: 20px;
-}
-.portfolio-modal-footer {
-  border-top: #eee solid 1px;
-  text-align: right;
+
+.modal .modal-links a {
+    padding-right: 10px;
 }

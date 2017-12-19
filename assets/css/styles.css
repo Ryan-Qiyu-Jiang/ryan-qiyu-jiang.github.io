@@ -246,6 +246,14 @@ button.outline:hover{
   transition: 0.2s ease;
 }
 
+.min-bar {
+    background-color: #3a3a3a;
+    width: 50px;
+    height: 4px;
+    /* margin-top: 20px; */
+    margin-bottom: 15px;
+}
+
 .fa.fa-facebook-square {
   font-size:20px;
 }
