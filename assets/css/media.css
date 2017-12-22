@@ -3,7 +3,7 @@
 		width:100%;
 	}
 }
-@media(max-width: 790px){
+@media(max-width: 815px){
 	.header-title {
 		left:0;
 	}
