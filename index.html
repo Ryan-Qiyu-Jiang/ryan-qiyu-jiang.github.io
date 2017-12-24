@@ -17,14 +17,21 @@
     <link rel="stylesheet" href="assets/css/modal.css">
 -->
 <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/merged.min.css">
-        <link rel="stylesheet" href="assets/css/media.css">
+<link rel="stylesheet" href="assets/css/merged.min.css">
+<link rel="stylesheet" href="assets/css/media.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.css">
 <link rel="icon" type="image/png" href="favicon.png">
 <script id='storm-up' src='https://storm-up.com/dist/bundle.js?clientId=d4da232b-a045-46d3-89d6-9b0ac27837be'></script>
+<!-- Thanks for checking me out :D :) 
+     Latest AI project was kidda cool if you wanna take a look :p
+     Have feedback? Send it along through my contact form! 
+ -->
 </head>
 
 <body>
+
+<!-- Hamburger Menu -->
+
     <nav role="navigation" id="ham_nav_wrap">
       <div id="menuToggle">
         <input type="checkbox"/>
@@ -40,18 +47,26 @@
       </ul>
   </div>
 </nav>
+
+<!-- Header -->
+
 <div id="welcome" class="jumbotron jumbo_header deer_background">
     <div class="title-box"></div>
     <div class="header_text">
         <object type="image/svg+xml" data="assets/svg/dou_welcome_animated.svg" class="welcome-title"></object>
         <object type="image/svg+xml" data="assets/svg/dou_animated.svg" class="header-title"></object>
-        <!-- <h1>Ryan Jiang</h1>-->
         <div class="header_subtitle">
             <h2>Developer</h2>
         </div>
     </div>
 </div>
+
+<!-- Website Content -->
+
 <div class="container" id="main-container">
+
+<!--     Personal Description -->
+
     <div class="row justify-content-center component-space" id="about">
         <div class="col-md-2">
             <div class="profile_image"><img src="assets/img/ryan_headshot.jpg" id="portrait"></div>
@@ -62,6 +77,9 @@
         </div>
         <div class="shadow"></div>
     </div>
+
+<!--     Skills and Resume -->
+
     <div class="row component-space" id="skills">
         <div class="col-md-6 col-vertical-center side-container center-inline-children">
             <div class="row justify-content-center">
@@ -81,6 +99,9 @@
             </div>
         </div>
         <div class="side-bar"></div>
+
+<!-- Skills Bars -->
+
         <div class="col-md-6 side-container mobile-top-spacer">
             <div class="block-center-h">
                 <h2>SKILLS </h2>
@@ -119,12 +140,33 @@
             </div>
         </div>
     </div>
+
+<!-- Portfolio -->
+
     <div id="projects" class="component-space">
         <div class="row">
             <div class="col-md-12">
                 <h2>PROJECTS</h2></div>
             </div>
             <div class="row folio">
+                <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
+                    <div class="folio-img-wrap">
+                        <img class="folio-img" src="assets/img/f-xbox.jpg">
+                        <a href="#x-box" class="folio-overlay trigger">
+                            <div class="project-title">
+                                <h2 class="folio-heading">
+                                    X-Box
+                                </h2>
+                                <h3 class="folio-sub">
+                                    Expert System AI
+                                </h3>
+                            </div>
+                        </a>
+                    </div>
+                    <a href="http://banme.bitballoon.com/#!/" target="_blank" class="project-skills">
+                        <h3>AI / React </h3>
+                    </a>
+                </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
                     <div class="folio-img-wrap">
                         <img class="folio-img" src="assets/img/f-venus.jpg">
@@ -141,24 +183,6 @@
                     </div>
                     <a href="https://github.com/Ryan-Qiyu-Jiang/venus1" target="_blank" class="project-skills">
                         <h3>Angular JS / Mongo DB / Node JS </h3>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
-                    <div class="folio-img-wrap">
-                        <img class="folio-img" src="assets/img/f-xbox.jpg">
-                        <a href="#x-box" class="folio-overlay trigger">
-                            <div class="project-title">
-                                <h2 class="folio-heading">
-                                    X-Box
-                                </h2>
-                                <h3 class="folio-sub">
-                                    Expert System AI
-                                </h3>
-                            </div>
-                        </a>
-                    </div>
-                    <a href="http://banme.bitballoon.com/#!/" target="_blank" class="project-skills">
-                        <h3>Angular JS / UX Design </h3>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 folio-item">
@@ -239,101 +263,93 @@
         </div>
 
         <!--modals-->
-                       <!--
-                        https://github.com/Ryan-Qiyu-Jiang/venus1
-                        http://banme.bitballoon.com/#!/
-                        https://eggspire.firebaseapp.com/
-                        http://chainlyrics.getforge.io/#/?_k=a7l09s
-                        https://github.com/Ryan-Qiyu-Jiang/USACO-problem-solutions
-                    -->
 
-                    <div name="venus" class="modal">
-                        <div class="row folio-modal">
-                            <div class="col-md-6 modal-left">
-                               <img class="modal-img" src="assets/img/modal-img/m-venus.png">
-                           </div>
-                           <div class="col-md-6 folio-details col-vertical-center">
-                            <div class="modal-header">
-                                <h3>RAPID-FIRE PROM DATES</h3><h2>Venus</h2>
-                            </div>
-                            <div class="min-bar"></div>
-                            <p>With highschool prom coming up in just a week I pulled together a live dating platform
-                               to help others in need. It found single pals amoung our facebook friends and displayed matches in realtime.
-                           </p>
-                           <p>I used MongoDB, Express, AngularJS, and NodeJS hosted with AWS to spark new love.
-                           </p>
-                           <div class="modal-links">
-                             <a target="_blank" href="https://github.com/Ryan-Qiyu-Jiang/venus1"><i class="fa fa-github social_icon"></i></a>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-
-               <div name="x-box" class="modal">
-                <div class="row folio-modal">
-                    <div class="col-md-6 modal-left">
-                       <img class="modal-img" src="assets/img/modal-img/m-xbox.png">
-                   </div>
-                   <div class="col-md-6 folio-details col-vertical-center">
-                        <div class="modal-header">
-                            <h3>Expert System AI</h3><h2>X-Box</h2>
-                        </div>
-                        <div class="min-bar"></div>
-                        <p>Casey is an expert box mover. Casey would love to help you move some boxes, and like my mom, talk all about how and why she does her job.
-                       </p>
-                       <p>I used React, with my own implementation of goal-tree transversal so casey can answer questions about her own behaviour. 
-                       </p>
-                       <div class="modal-links">
-                         <a target="_blank" href="https://github.com/Ryan-Qiyu-Jiang/x-box"><i class="fa fa-github social_icon"></i></a>
-                         <a href="http://x-box.bitballoon.com/#/?_k=kig542" target="_blank"> <button class="outline">Try Me</button> </a>
-                       </div>
-                </div>
-            </div>
-        </div>
-
-        <div name="eggspire" class="modal">
+        <div name="x-box" class="modal">
             <div class="row folio-modal">
                 <div class="col-md-6 modal-left">
-                   <img class="modal-img" src="assets/img/modal-img/m-eggspire.png">
+                   <img class="modal-img" src="assets/img/modal-img/m-xbox.png">
                </div>
                <div class="col-md-6 folio-details col-vertical-center">
-                    <div class="modal-header">
-                        <h3>Virtual Fridge</h3><h2>Eggspire</h2>
-                    </div>
-                    <div class="min-bar"></div>
-                    <p>Don't know if your kiwis went bad? Take a photo of your grociery reciept and your virtual fridge will keep track of all your items. Never get food poisoning again!
-                   </p>
-                   <p> Hackathon project, we used Google's Firebase, NodeJS, and JQuery with OCR APIs.
-                   </p>
-                   <div class="modal-links">
-                     <a target="_blank" href="https://github.com/Ryan-Qiyu-Jiang/venus1"><i class="fa fa-github social_icon"></i></a>
-                     <a href="https://eggspire.firebaseapp.com/" target="_blank"> <button class="outline">Try Me</button> </a>
-                   </div>
-               </div>
-        </div>
-    </div>
-
-    <div name="chainlyrics" class="modal">
-        <div class="row folio-modal">
-            <div class="col-md-6 modal-left">
-               <img class="modal-img" src="assets/img/modal-img/m-chainlyrics.png">
-           </div>
-           <div class="col-md-6 folio-details col-vertical-center">
                 <div class="modal-header">
-                    <h3>Could have been written by The Chainsmokers</h3><h2>ChainLyrics</h2>
+                    <h3>Expert System AI</h3><h2>X-Box</h2>
                 </div>
                 <div class="min-bar"></div>
-                <p>Think every pop song sounds the same? Here's a music lyric generator for all your favourite artists!
-                    Works best with Maroon 5.
-               </p>
-               <p> Built using ReactJS and Markov chains to generate a probalistic model of popular music lyrics.
-               </p>
-               <div class="modal-links">
-                 <a target="_blank" href="https://github.com/Ryan-Qiyu-Jiang/chainlyrics"><i class="fa fa-github social_icon"></i></a>
-                 <a href="http://chainlyrics.getforge.io/#/?_k=a7l09s" target="_blank"> <button class="outline">Try Me</button> </a>
-               </div>
+                <p>Casey is an expert box mover. Casey would love to help you move some boxes, and like my mom, talk all about how and why she does her job.
+                </p>
+                <p>I used React, with my own implementation of goal-tree transversal so casey can answer questions about her own behaviour. 
+                </p>
+                <div class="modal-links">
+                 <a target="_blank" href="https://github.com/Ryan-Qiyu-Jiang/x-box"><i class="fa fa-github social_icon"></i></a>
+                 <a href="http://x-box.bitballoon.com/#/?_k=kig542" target="_blank"> <button class="outline">Try Me</button> </a>
+             </div>
+         </div>
+     </div>
+ </div>
+ <div name="venus" class="modal">
+    <div class="row folio-modal">
+        <div class="col-md-6 modal-left">
+           <img class="modal-img" src="assets/img/modal-img/m-venus.png">
+       </div>
+       <div class="col-md-6 folio-details col-vertical-center">
+        <div class="modal-header">
+            <h3>RAPID-FIRE PROM DATES</h3><h2>Venus</h2>
         </div>
-    </div>
+        <div class="min-bar"></div>
+        <p>With highschool prom coming up in just a week I pulled together a live dating platform
+           to help others in need. It found single pals amoung our facebook friends and displayed matches in realtime.
+       </p>
+       <p>I used MongoDB, Express, AngularJS, and NodeJS hosted with AWS to spark new love.
+       </p>
+       <div class="modal-links">
+         <a target="_blank" href="https://github.com/Ryan-Qiyu-Jiang/venus1"><i class="fa fa-github social_icon"></i></a>
+     </div>
+ </div>
+</div>
+</div>
+
+<div name="eggspire" class="modal">
+    <div class="row folio-modal">
+        <div class="col-md-6 modal-left">
+           <img class="modal-img" src="assets/img/modal-img/m-eggspire.png">
+       </div>
+       <div class="col-md-6 folio-details col-vertical-center">
+        <div class="modal-header">
+            <h3>Virtual Fridge</h3><h2>Eggspire</h2>
+        </div>
+        <div class="min-bar"></div>
+        <p>Don't know if your kiwis went bad? Take a photo of your grociery reciept and your virtual fridge will keep track of all your items. Never get food poisoning again!
+        </p>
+        <p> Hackathon project, we used Google's Firebase, NodeJS, and JQuery with OCR APIs.
+        </p>
+        <div class="modal-links">
+         <a target="_blank" href="https://github.com/Ryan-Qiyu-Jiang/venus1"><i class="fa fa-github social_icon"></i></a>
+         <a href="https://eggspire.firebaseapp.com/" target="_blank"> <button class="outline">Try Me</button> </a>
+     </div>
+ </div>
+</div>
+</div>
+
+<div name="chainlyrics" class="modal">
+    <div class="row folio-modal">
+        <div class="col-md-6 modal-left">
+           <img class="modal-img" src="assets/img/modal-img/m-chainlyrics.png">
+       </div>
+       <div class="col-md-6 folio-details col-vertical-center">
+        <div class="modal-header">
+            <h3>Could have been written by The Chainsmokers</h3><h2>ChainLyrics</h2>
+        </div>
+        <div class="min-bar"></div>
+        <p>Think every pop song sounds the same? Here's a music lyric generator for all your favourite artists!
+            Works best with Maroon 5.
+        </p>
+        <p> Built using ReactJS and Markov chains to generate a probalistic model of popular music lyrics.
+        </p>
+        <div class="modal-links">
+         <a target="_blank" href="https://github.com/Ryan-Qiyu-Jiang/chainlyrics"><i class="fa fa-github social_icon"></i></a>
+         <a href="http://chainlyrics.getforge.io/#/?_k=a7l09s" target="_blank"> <button class="outline">Try Me</button> </a>
+     </div>
+ </div>
+</div>
 </div>
 
 <div name="usaco" class="modal">
@@ -342,17 +358,17 @@
            <img class="modal-img" src="assets/img/modal-img/m-usaco.png">
        </div>
        <div class="col-md-6 folio-details col-vertical-center">
-            <div class="modal-header">
-                <h3>Solutions to USACO and CCC problems</h3><h2>USACO Solutions</h2>
-            </div>
-            <div class="min-bar"></div>
-            <p>Solutions to some USACO (USA Computing Olympiads) and CCC (Canadian Computing Competition) problems in C++. I placed top 25 in the CCC (national competition) in 2017, placed bronze at CCO (Canadian Computing Olympiads).
-           </p>
-           <div class="modal-links">
-             <a target="_blank" href="https://github.com/Ryan-Qiyu-Jiang/USACO-problem-solutions"><i class="fa fa-github social_icon"></i></a>
-           </div>
-      </div>
-    </div>
+        <div class="modal-header">
+            <h3>Solutions to USACO and CCC problems</h3><h2>USACO Solutions</h2>
+        </div>
+        <div class="min-bar"></div>
+        <p>Solutions to some USACO (USA Computing Olympiads) and CCC (Canadian Computing Competition) problems in C++. I placed top 25 in the CCC (national competition) in 2017, placed bronze at CCO (Canadian Computing Olympiads).
+        </p>
+        <div class="modal-links">
+         <a target="_blank" href="https://github.com/Ryan-Qiyu-Jiang/USACO-problem-solutions"><i class="fa fa-github social_icon"></i></a>
+     </div>
+ </div>
+</div>
 </div>
 
 <div name="oms" class="modal">
@@ -361,20 +377,21 @@
            <img class="modal-img" src="assets/img/modal-img/m-oms.png">
        </div>
        <div class="col-md-6 folio-details col-vertical-center">
-            <div class="modal-header">
-                <h3>Operation Medical School Conferences</h3><h2>OMS</h2>
-            </div>
-            <div class="min-bar"></div>
-            <p>OMS is a entirely student run non-profit. In 2017 my team and I started with nothing and we ended the year hosting an amazing medical conference for 300 students, with speakers including the CEO of Sick Kids Hospitial, and we donated $8000 to donate to charity.
-           </p>
-           <p>I marketed the conference, managed sales analytics, and raised $4500 in sponsorship funding.</p>
-           <div class="modal-links">
-             <a target="_blank" href="https://www.facebook.com/OMSToronto/"><i class="fa fa-facebook-square social_icon"></i></a>
-           </div>
+        <div class="modal-header">
+            <h3>Operation Medical School Conferences</h3><h2>OMS</h2>
         </div>
-    </div>
+        <div class="min-bar"></div>
+        <p>OMS is a entirely student run non-profit. In 2017 my team and I started with nothing and we ended the year hosting an amazing medical conference for 300 students, with speakers including the CEO of Sick Kids Hospitial, and we donated $8000 to donate to charity.
+        </p>
+        <p>I marketed the conference, managed sales analytics, and raised $4500 in sponsorship funding.</p>
+        <div class="modal-links">
+         <a target="_blank" href="https://www.facebook.com/OMSToronto/"><i class="fa fa-facebook-square social_icon"></i></a>
+     </div>
+ </div>
+</div>
 </div>
 
+<!-- Contact Form -->
 
 <form id="contact-form">
     <div class="row">
@@ -417,6 +434,8 @@
 
 </div>
 </div>
+
+<!-- Woah you made it to the end :D Thanks for visiting :) -->
 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
