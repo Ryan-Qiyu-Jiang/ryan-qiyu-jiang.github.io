@@ -1,10 +1,39 @@
+#latest.folio-item::before {
+	content: "Latest Project!";
+	position: absolute;
+	z-index: 10;
+	transform: rotate(-20deg);
+	padding: 10px;
+	border: solid 1px #98948d;
+	border-radius: 10px;
+	color: #98948d;
+	text-transform: uppercase;
+	left: -20px;
+	transition: 0.5s ease;
+}
+#latest.folio-item:hover::before {
+	opacity: 0;
+	transition: 0.5s ease;
+}
+#latest.folio-item a.project-skills h3::after {
+	content: "FEATURED";
+	background-color: #cbcbcb;
+	color: white;
+	border-radius: 5px;
+	padding: 2px 4px;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
 .folio{
 	margin:20px 0 20px 0;
 }
 
 .folio-item{
 	margin: 0 0 60px 0;
-    padding: 0;
+	padding: 0;
 }
 
 .folio-item .folio-img-wrap{
@@ -14,22 +43,22 @@
 
 .folio-item img.folio-img{
 	max-width: 100%;
-    width: 100%;
-    transition: all 0.5s ease;
-    opacity: 0.8;
+	width: 100%;
+	transition: all 0.5s ease;
+	opacity: 0.8;
 }
 
 .folio-overlay{
 	background: transparent;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    transition: all 0.5s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	transition: all 0.5s ease;
 }
 
 .project-title{
