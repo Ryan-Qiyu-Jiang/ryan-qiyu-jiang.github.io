@@ -44,16 +44,33 @@ body{
   overflow: hidden;
 }
 
-.block-center-h{
+.block-center-h {
   margin-left: auto;
-  margin-right:auto;
-  width:300px;
+  margin-right: auto;
+  width: 410px;
 }
 
-h1{
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
   font-family: "Diamor";
-  font-size:170px;
+  font-size:57px;
   color:black;
+}
+
+h2 {
+  font-family:Consolas;
+  font-size:18px;
+  font-weight:bold;
+  color:#E75B8E;
+}
+
+p {
+  font-family:arial;
+  font-size:18px;
 }
 
 .header_text{
@@ -118,13 +135,36 @@ h1{
   position:relative;
   border-left: 1px #7f7f7f solid;
   left:0;
-  height:300px;
+  height:250px;
 }
 
-#skills{
- padding-top: 100px;
+#main-container {
+  width: 60%;
 }
 
+#header {
+  margin: 10px 0;
+}
+
+#skills {
+  position: relative;
+  left: -25%;
+  padding-left: 120px;
+}
+
+#projects {
+}
+
+span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#resume {
+  position: relative;
+  left: -75px;
+  margin-left: 50%;
+}
 .shadow{
   position: absolute;
   left: 0;
@@ -135,10 +175,6 @@ h1{
   height: 20px;
   bottom:-300px;
   background-color: white;
-}
-
-#projects{
-  padding-top:40px;
 }
 
 #contact-form{
@@ -285,18 +321,6 @@ button.outline:hover{
   display:flex;
   flex-direction:column;
   justify-content:center;
-}
-
-h2 {
-  font-family:Consolas;
-  font-size:30px;
-  font-weight:bold;
-  color:#E75B8E;
-}
-
-p {
-  font-family:arial;
-  font-size:18px;
 }
 
 #portrait {

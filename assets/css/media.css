@@ -1,8 +1,15 @@
-@media(max-width: 992px){
-	.block-center-h{
-		width:100%;
+@media(max-width: 1024px){
+	#main-container {
+		width: 70%;
 	}
 }
+
+@media(max-width: 912px){
+	#main-container {
+		width: 80%;
+	}
+}
+
 @media(max-width: 815px){
 	.header-title {
 		left:0;
@@ -52,8 +59,19 @@
 	}
 
 	.deer_background{
-  background-image: url("../img/joey-pilgrim-small.jpg");
+  		background-image: url("../img/joey-pilgrim-small.jpg");
+	}
+
+	#skills {
+		padding-left: 40px;
+	}
+
 }
+
+@media(max-width: 470px){
+	.block-center-h {
+  	  width: 80vw;
+	}
 
 }
 
