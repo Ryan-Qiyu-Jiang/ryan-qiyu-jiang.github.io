@@ -68,6 +68,13 @@ h2 {
   color:#E75B8E;
 }
 
+h3 {
+  font-family:arial;
+  font-weight:500;
+  font-style:italic;
+  font-size: 16px;
+}
+
 p {
   font-family:arial;
   font-size:18px;
@@ -208,13 +215,6 @@ span {
   left: 0;
   right: 0;
   z-index: 5;
-}
-
-h3 {
-  font-family:Arial;
-  font-weight:500;
-  font-style:italic;
-  font-size: 16px;
 }
 
 button{
