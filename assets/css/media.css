@@ -66,13 +66,15 @@
 		padding-left: 40px;
 	}
 
+	.vertical-center {
+		display: block;
+	}
 }
 
 @media(max-width: 470px){
 	.block-center-h {
   	  width: 80vw;
 	}
-
 }
 
 @media(max-width: 398px){
